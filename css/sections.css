@@ -1,0 +1,30 @@
+.react-section {
+    padding: 50px 2%;
+}
+.cuadro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.cuadro:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+.cuadro:nth-child(2n) .texto-cuadro {
+    margin-left: 0;
+    margin-right: 5%;
+}
+.img-cuadro {
+    width: 20%;
+}
+.texto-cuadro {
+    width: 50%;
+    margin-left: 5%;
+}
+.titulo-cuadro {
+    font-family: var(--fontBlack);
+    font-size: 30px;
+}
+.parrafo-cuadro {
+    font-family: var(--fontMedium);
+    font-size: 20px;
+}

@@ -1,0 +1,25 @@
+.main {
+    background: #02192c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 5%;
+    box-sizing: border-box; /*El padding resta*/
+    position: fixed;
+    width: 100%;
+}
+.img-react {
+    width: 150px;
+}
+.op-main a {
+    font-family: var(--fontMedium);
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 25px;
+    transition: 1s;
+}
+.op-main a:hover {
+    color: aqua;
+}

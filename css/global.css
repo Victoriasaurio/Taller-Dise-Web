@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+@font-face {
+    /*Declara una fuente*/
+    font-family: "Montserrat-Bold";
+    src: url('/css/fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url('/css/fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('/css/fonts/Montserrat-Light.ttf');
+}
+/*Creando una variable para la fuente*/
+:root{
+    --fontBlack: "Montserrat-Bold";
+    --fontMedium: "Montserrat-Medium";
+    --fontLight: "Montserrat-Light";
+}
